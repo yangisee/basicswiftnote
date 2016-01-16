@@ -90,6 +90,41 @@ A & B
 
 
 
+var k = false ? 1 : 2;
+var j = true ? 1 : 2;
+
+
+
+
+var i:Int
+for i=0;i<10;i++
+{
+    print("a")
+}
+
+
+var someInts:[Int] = [10, 20, 30]
+
+for var i = 0; i < 3; ++i
+{
+    print( "Value of someInts[\(i)] is \(someInts[i])")
+}
+
+var o:Int = 10
+
+
+repeat{
+    o = o + 1
+    
+    if( o == 15 )
+    {
+        continue
+    }
+    print( "Value of index is \(o)")
+}while o < 20
+
+
+
 
 
 
